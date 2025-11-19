@@ -1,0 +1,40 @@
+html {
+  background-color: gray;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 100px);
+  width: 90vw;
+  text-align: center;
+  font-family: Monospace, sans-serif;
+  background-color: white;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+}
+
+section {
+    text-align: center;
+    padding: 50px 5px;
+    vertical-align: top;
+    display: inline-block;
+    min-height: 100px;
+    width: calc(calc(100vh - 100px) / 2);
+}
+
+ul {
+  list-style-type: square;
+}

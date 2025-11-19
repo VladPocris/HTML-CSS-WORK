@@ -1,0 +1,44 @@
+body {
+  background-color: #f4f4f4;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.color-grid {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.color-box {
+  display: inline-block;
+  margin: 25px auto;
+  border-radius: 8px;
+}
+
+.color1 {
+  background-color: #33FF57;
+}
+
+.color2 {
+  background-color: rgb(128, 0, 128);
+}
+
+.color3 {
+  background-color: orange;
+}
+
+.color4 {
+  background-color: hsl(59, 61%, 26%);
+}
+
+.color5 {
+  background-color: red;
+}
