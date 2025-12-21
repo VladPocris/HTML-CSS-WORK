@@ -1,0 +1,75 @@
+html {
+  font-size: 10px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.title{
+  grid-area: title;
+  text-align: center;
+  font-size: 2.4rem;
+  background-color: #1B1B32;
+  color: white;
+}
+
+.feature-article{
+  grid-area: feature-article;
+} 
+
+.secondary-article{
+  grid-area: secondary-article;
+} 
+
+.cover-image{
+  grid-area: cover-image;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  padding: 15px;
+  margin: 0;
+} 
+
+.small-article1{
+  grid-area: small-article1;
+} 
+
+.small-article2{
+  grid-area: small-article2;
+} 
+
+.small-article3 {
+  grid-area: small-article3;
+}
+
+.newspaper-layout {
+  display: grid;
+  text-align: justify;
+  grid-template-areas: 
+  "title title title"
+  "feature-article feature-article cover-image"
+  "secondary-article secondary-article cover-image"
+  "small-article1 small-article2 small-article3";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  box-sizing: border-box;
+}
+
+.cover-image > img {
+  max-width: 100%;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.small-article1, .small-article2, .small-article3 {
+  padding: 1.3rem;
+  font-size: 1.4rem;
+  background-color: #e9e9e9;
+}
+
+.feature-article, .secondary-article {
+  padding: 1.3rem;
+  font-size: 1.6rem;
+  background-color: #f9f9f9;
+}
